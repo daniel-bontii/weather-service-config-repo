@@ -1,0 +1,14 @@
+weather:
+  url: https://weather-by-api-ninjas.p.rapidapi.com/v1/weather
+  apikey: ${api_key}
+  apiHost: X-RapidAPI-Key
+
+
+spring:
+  application:
+    name: samuel-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
